@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Todo List</h1>
+      <div class="cnt-container">
+        Total: <span id="total">0 </span>&nbsp; | Completed:
+        <span id="completed">0</span>
+      </div>
+      <form  id="todo-form">
+        <input type="text" placeholder="Enter a task" id="todo-input" />
+        <button id="btn">Add a task</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
